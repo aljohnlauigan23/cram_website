@@ -9,6 +9,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{outline: 1px solid;}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1064,7 +1067,7 @@ section {
 .appointment .php-email-form input,
 .appointment .php-email-form textarea,
 .appointment .php-email-form select {
-  border-radius: 0;
+  /* border-radius: 0; */
   box-shadow: none;
   font-size: 14px;
   padding: 10px !important;
@@ -1076,10 +1079,10 @@ section {
   border-color: #1977cc;
 }
 
-.appointment .php-email-form input,
+/* .appointment .php-email-form input,
 .appointment .php-email-form select {
   height: 44px;
-}
+} */
 
 .appointment .php-email-form textarea {
   padding: 10px 12px;
