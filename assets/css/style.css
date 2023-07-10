@@ -466,7 +466,7 @@ h6 {
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/caregiver1.jpg") top center;
+  background: url("../img/caregiver2.jpg") top center;
   background-size: cover;
   margin-bottom: -200px;
 }
@@ -502,7 +502,7 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1977cc;
+  background: #666699;
 }
 
 #hero .btn-get-started:hover {
@@ -923,12 +923,19 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  display: flex;
+  justify-content: center; /* Horizontally center the icon box */
+  align-items: center; /* Vertically center the icon box */
+}
+
 .services .icon-box {
-  text-align: center;
+  text-align: left;
   border: 1px solid #d5e1ed;
-  padding: 80px 20px;
+  padding: 2% 34%;
   transition: all ease-in-out 0.3s;
 }
+
 
 .services .icon-box .icon {
   margin: 0 auto;
