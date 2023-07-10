@@ -265,8 +265,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #00ffea;
-  border-color: #00ffea ;
+  color: #50fff0;
+  border-color: #50fff0 ;
 }
 
 .navbar .dropdown ul {
